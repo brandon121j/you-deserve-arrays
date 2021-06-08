@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 let arr = prompt('Enter an array: ');
 array = JSON.parse(arr);
 
-if (!isNaN[array]) {
-    console.log(true);
-}
+const fir = array[0];
+const num = typeof fir == 'number';
 
+console.log(num);

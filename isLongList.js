@@ -1,10 +1,11 @@
 const prompt = require('prompt-sync')();
 let arr = prompt('Enter an array: ');
+array = JSON.parse(arr);
 
-if (arr >= 10) {
+if (array.length >= 10) {
     console.log('true')
 }
 
-if (arr < 10) {
+else {
     console.log('false')
 }

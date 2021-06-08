@@ -3,7 +3,7 @@ let arr = prompt('Enter an array: ');
 let last = arr[arr.length - 1];
 array = JSON.parse(arr);
 
-if (arr.length >= 4) {
+if (array.length >= 4) {
     console.log(array[3]);
 }
 
